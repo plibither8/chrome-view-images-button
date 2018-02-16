@@ -18,7 +18,7 @@ gulp.task('styl', function() {
 
 gulp.task('js', function() {
 	return gulp.src('src/js/*.js')
-	.pipe(concat('scripts.js'))
+	.pipe(concat('content.js'))
 	.pipe(uglify())
 	.pipe(gulp.dest('dist/'))
 })

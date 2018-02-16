@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "View Image Button",
+	"version": "0.1.0",
+	"description": "Get back the 'View Image' button in Google Image search results!",
+	
+	"content_scripts": [
+		{
+			"js": [
+				"content.js"
+			],
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"include_globs": [
+				"http://www.google.*/*",
+				"https://www.google.*/*"
+			]
+		}
+	]
+}
