@@ -15,8 +15,8 @@
 				"https://*/*"
 			],
 			"include_globs": [
-				"http://www.google.*/*",
-				"https://www.google.*/*"
+				"http://www.google.*/search*tbm=isch*",
+				"https://www.google.*/search*tbm=isch*"
 			]
 		}
 	]
